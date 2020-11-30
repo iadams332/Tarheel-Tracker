@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AD357FC62574852100FF21E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD357FC52574852100FF21E0 /* AppDelegate.swift */; };
-		AD357FC82574852100FF21E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD357FC72574852100FF21E0 /* ContentView.swift */; };
 		AD357FCA2574852100FF21E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD357FC92574852100FF21E0 /* Assets.xcassets */; };
 		AD357FCD2574852100FF21E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD357FCC2574852100FF21E0 /* Preview Assets.xcassets */; };
 		AD357FD02574852100FF21E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD357FCE2574852100FF21E0 /* Main.storyboard */; };
 		AD357FD925748A9D00FF21E0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD357FD825748A9D00FF21E0 /* Colors.xcassets */; };
 		AD357FDB25748C1100FF21E0 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD357FDA25748C1100FF21E0 /* ColorManager.swift */; };
+		AD357FDD25748E4600FF21E0 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD357FDC25748E4600FF21E0 /* MainMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD357FC22574852100FF21E0 /* Tarheel Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarheel Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD357FC52574852100FF21E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD357FC72574852100FF21E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD357FC92574852100FF21E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD357FCC2574852100FF21E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD357FCF2574852100FF21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,6 +26,7 @@
 		AD357FD22574852100FF21E0 /* Tarheel_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tarheel_Tracker.entitlements; sourceTree = "<group>"; };
 		AD357FD825748A9D00FF21E0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		AD357FDA25748C1100FF21E0 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		AD357FDC25748E4600FF21E0 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				AD357FC52574852100FF21E0 /* AppDelegate.swift */,
-				AD357FC72574852100FF21E0 /* ContentView.swift */,
+				AD357FDC25748E4600FF21E0 /* MainMenuView.swift */,
 				AD357FC92574852100FF21E0 /* Assets.xcassets */,
 				AD357FD825748A9D00FF21E0 /* Colors.xcassets */,
 				AD357FDA25748C1100FF21E0 /* ColorManager.swift */,
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD357FDB25748C1100FF21E0 /* ColorManager.swift in Sources */,
-				AD357FC82574852100FF21E0 /* ContentView.swift in Sources */,
+				AD357FDD25748E4600FF21E0 /* MainMenuView.swift in Sources */,
 				AD357FC62574852100FF21E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
