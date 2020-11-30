@@ -12,6 +12,8 @@
 		AD357FCA2574852100FF21E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD357FC92574852100FF21E0 /* Assets.xcassets */; };
 		AD357FCD2574852100FF21E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD357FCC2574852100FF21E0 /* Preview Assets.xcassets */; };
 		AD357FD02574852100FF21E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD357FCE2574852100FF21E0 /* Main.storyboard */; };
+		AD357FD925748A9D00FF21E0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD357FD825748A9D00FF21E0 /* Colors.xcassets */; };
+		AD357FDB25748C1100FF21E0 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD357FDA25748C1100FF21E0 /* ColorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		AD357FCF2574852100FF21E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD357FD12574852100FF21E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD357FD22574852100FF21E0 /* Tarheel_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tarheel_Tracker.entitlements; sourceTree = "<group>"; };
+		AD357FD825748A9D00FF21E0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AD357FDA25748C1100FF21E0 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				AD357FC52574852100FF21E0 /* AppDelegate.swift */,
 				AD357FC72574852100FF21E0 /* ContentView.swift */,
 				AD357FC92574852100FF21E0 /* Assets.xcassets */,
+				AD357FD825748A9D00FF21E0 /* Colors.xcassets */,
+				AD357FDA25748C1100FF21E0 /* ColorManager.swift */,
 				AD357FCE2574852100FF21E0 /* Main.storyboard */,
 				AD357FD12574852100FF21E0 /* Info.plist */,
 				AD357FD22574852100FF21E0 /* Tarheel_Tracker.entitlements */,
@@ -133,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD357FD02574852100FF21E0 /* Main.storyboard in Resources */,
+				AD357FD925748A9D00FF21E0 /* Colors.xcassets in Resources */,
 				AD357FCD2574852100FF21E0 /* Preview Assets.xcassets in Resources */,
 				AD357FCA2574852100FF21E0 /* Assets.xcassets in Resources */,
 			);
@@ -145,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD357FDB25748C1100FF21E0 /* ColorManager.swift in Sources */,
 				AD357FC82574852100FF21E0 /* ContentView.swift in Sources */,
 				AD357FC62574852100FF21E0 /* AppDelegate.swift in Sources */,
 			);
